@@ -1,0 +1,93 @@
+{
+  "eventos": [
+    {
+      "id": "1",
+      "titulo": "Conferencia de Inteligencia Artificial",
+      "categoria": "Conferencia",
+      "fecha": "2026-07-15",
+      "lugar": "Auditorio principal",
+      "estado": "Próximo",
+      "imagen": "/images/IA.jpg",
+      "descripcion": "Evento académico sobre aplicaciones de la inteligencia artificial en la educación universitaria."
+    },
+    {
+      "id": "2",
+      "titulo": "Taller de Desarrollo Web con React",
+      "categoria": "Taller",
+      "fecha": "2026-07-20",
+      "lugar": "Laboratorio de cómputo",
+      "estado": "Próximo",
+      "imagen": "/images/desarrollo_web.jpg",
+      "descripcion": "Taller práctico orientado al desarrollo de interfaces web modernas con React."
+    },
+    {
+      "id": "3",
+      "titulo": "Seminario de Ciberseguridad",
+      "categoria": "Seminario",
+      "fecha": "2026-07-25",
+      "lugar": "Sala de conferencias",
+      "estado": "Próximo",
+      "imagen": "/images/ciberseguridad.jpg",
+      "descripcion": "Seminario dirigido a estudiantes interesados en seguridad informática y protección de datos."
+    },
+    {
+      "titulo": "Congreso de Liderazgo",
+      "categoria": "Conferencia",
+      "fecha": "2026-08-08",
+      "lugar": "Auditorio Principal",
+      "estado": "Próximo",
+      "imagen": "/images/universidad.jpg",
+      "descripcion": "Desarrolla todo tu potencial como guía y referente en tu equipo. Esta conferencia está diseñado para transformar la manera en que te comunicas, resuelves conflictos y motivas a otros.",
+      "id": "NBl8vMgjWZQ"
+    }
+  ],
+  "participantes": [
+    {
+      "id": "1",
+      "nombres": "Carlos Ramírez",
+      "correo": "carlos.ramirez@continental.edu.pe",
+      "tipo": "Estudiante",
+      "evento": "Conferencia de Inteligencia Artificial"
+    },
+    {
+      "id": "2",
+      "nombres": "María Quispe",
+      "correo": "maria.quispe@continental.edu.pe",
+      "tipo": "Docente",
+      "evento": "Taller de Desarrollo Web con React"
+    }
+  ],
+  "apiEventos": [
+    {
+      "id": "1",
+      "titulo": "Jornada de Innovación Tecnológica",
+      "descripcion": "Actividad académica orientada a presentar nuevas tendencias tecnológicas aplicadas a la educación superior.",
+      "categoria": "Innovación"
+    },
+    {
+      "id": "2",
+      "titulo": "Encuentro de Investigación Universitaria",
+      "descripcion": "Espacio académico donde estudiantes y docentes comparten proyectos de investigación y experiencias formativas.",
+      "categoria": "Investigación"
+    },
+    {
+      "id": "3",
+      "titulo": "Capacitación en Seguridad Digital",
+      "descripcion": "Evento enfocado en buenas prácticas de ciberseguridad, protección de datos y prevención de riesgos digitales.",
+      "categoria": "Ciberseguridad"
+    },
+    {
+      "id": "4",
+      "titulo": "Taller de Aplicaciones Web Modernas",
+      "descripcion": "Sesión práctica para fortalecer competencias en desarrollo frontend, componentes reutilizables y consumo de APIs.",
+      "categoria": "Desarrollo Web"
+    },
+    {
+      "id": "5",
+      "titulo": "Seminario de Inteligencia Artificial",
+      "descripcion": "Seminario académico sobre el impacto de la inteligencia artificial en la educación, la investigación y la industria.",
+      "categoria": "Inteligencia Artificial"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
