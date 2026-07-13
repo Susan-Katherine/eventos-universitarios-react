@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { BrowserRouter } from 'react-router-dom';
 import Home from '../pages/Home.jsx';
 
-test('muestra el título principal del sistema', () => {
+test('Nos muestra el título principal del sistema', () => {
   render(
     <BrowserRouter>
       <Home />
